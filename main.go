@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/law-lee/go-essentials/concurrency"
 	deferdemo "github.com/law-lee/go-essentials/defer-demo"
 	errordemo "github.com/law-lee/go-essentials/error-demo"
 	functiondemo "github.com/law-lee/go-essentials/function-demo"
@@ -14,4 +15,6 @@ func main() {
 	errordemo.Run()
 	deferdemo.Run()
 	par.Run()
+	concurrency.Run()
+	concurrency.Run2()
 }
