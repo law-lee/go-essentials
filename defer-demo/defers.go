@@ -38,10 +38,5 @@ func Run() {
 		}(i)
 	}
 
-	panic("panic occurred after defer")
-
-	fmt.Println("Last main statement") // not printed
-
-	// not deferred since execution flow never reaches this line
-	defer logNum(4)
+	//panic("panic occurred after defer")
 }
