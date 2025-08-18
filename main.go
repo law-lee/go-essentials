@@ -10,4 +10,5 @@ func main() {
 	functiondemo.Run()
 	methods.Run()
 	errordemo.Run()
+	errordemo.PanicIf(false, "no panic happens")
 }
