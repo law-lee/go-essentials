@@ -7,6 +7,7 @@ import (
 	errordemo "github.com/law-lee/go-essentials/error-demo"
 	functiondemo "github.com/law-lee/go-essentials/function-demo"
 	"github.com/law-lee/go-essentials/methods"
+	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
 )
 
@@ -19,4 +20,5 @@ func main() {
 	concurrency.Run()
 	concurrency.Run2()
 	channels.Run()
+	mutexdemo.Run()
 }
