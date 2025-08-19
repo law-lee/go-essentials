@@ -1,0 +1,3 @@
+You should always close files to avoid leaking file descriptors. 
+defer is perfect for ensuring Close will be called on exit of the function.
+The simplest way to read a whole file is:
