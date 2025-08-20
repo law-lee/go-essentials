@@ -8,6 +8,7 @@ import (
 	functiondemo "github.com/law-lee/go-essentials/function-demo"
 	"github.com/law-lee/go-essentials/methods"
 	"github.com/law-lee/go-essentials/fileio"
+	"github.com/law-lee/go-essentials/datetime"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
 )
@@ -23,4 +24,5 @@ func main() {
 	channels.Run()
 	mutexdemo.Run()
 	fileio.Run()
+	datetime.Run()
 }
