@@ -9,6 +9,7 @@ import (
 	"github.com/law-lee/go-essentials/methods"
 	"github.com/law-lee/go-essentials/fileio"
 	"github.com/law-lee/go-essentials/datetime"
+	"github.com/law-lee/go-essentials/commands"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
 )
@@ -25,4 +26,5 @@ func main() {
 	mutexdemo.Run()
 	fileio.Run()
 	datetime.Run()
+	commands.Run()
 }
