@@ -1,15 +1,16 @@
 package main
 
 import (
+	"github.com/law-lee/go-essentials/base64encoding"
 	"github.com/law-lee/go-essentials/channels"
+	"github.com/law-lee/go-essentials/commands"
 	"github.com/law-lee/go-essentials/concurrency"
+	"github.com/law-lee/go-essentials/datetime"
 	deferdemo "github.com/law-lee/go-essentials/defer-demo"
 	errordemo "github.com/law-lee/go-essentials/error-demo"
+	"github.com/law-lee/go-essentials/fileio"
 	functiondemo "github.com/law-lee/go-essentials/function-demo"
 	"github.com/law-lee/go-essentials/methods"
-	"github.com/law-lee/go-essentials/fileio"
-	"github.com/law-lee/go-essentials/datetime"
-	"github.com/law-lee/go-essentials/commands"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
 )
@@ -27,4 +28,5 @@ func main() {
 	fileio.Run()
 	datetime.Run()
 	commands.Run()
+	base64encoding.Run()
 }
