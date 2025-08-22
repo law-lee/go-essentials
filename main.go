@@ -10,6 +10,7 @@ import (
 	errordemo "github.com/law-lee/go-essentials/error-demo"
 	"github.com/law-lee/go-essentials/fileio"
 	functiondemo "github.com/law-lee/go-essentials/function-demo"
+	"github.com/law-lee/go-essentials/jsondemo"
 	"github.com/law-lee/go-essentials/methods"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
@@ -29,4 +30,5 @@ func main() {
 	datetime.Run()
 	commands.Run()
 	base64encoding.Run()
+	jsondemo.Run()
 }
