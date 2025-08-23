@@ -14,6 +14,7 @@ import (
 	"github.com/law-lee/go-essentials/methods"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
+	"github.com/law-lee/go-essentials/xmldemo"
 )
 
 func main() {
@@ -31,4 +32,7 @@ func main() {
 	commands.Run()
 	base64encoding.Run()
 	jsondemo.Run()
+	xmldemo.Run()
+	xmldemo.Run2()
+	xmldemo.Run3()
 }
