@@ -15,8 +15,9 @@ import (
 	"github.com/law-lee/go-essentials/methods"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
-	"github.com/law-lee/go-essentials/xmldemo"
 	"github.com/law-lee/go-essentials/reflection"
+	templatedemo "github.com/law-lee/go-essentials/templates"
+	"github.com/law-lee/go-essentials/xmldemo"
 )
 
 func main() {
@@ -39,4 +40,5 @@ func main() {
 	xmldemo.Run3()
 	csvdemo.Run()
 	reflection.Run()
+	templatedemo.Run()
 }
