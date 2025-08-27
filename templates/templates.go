@@ -1,10 +1,10 @@
 package templatedemo
 
 import (
-	"text/template"
 	"log"
 	"math"
 	"os"
+	"text/template"
 )
 
 type DataWithMethod struct {
@@ -12,7 +12,7 @@ type DataWithMethod struct {
 }
 
 func (d DataWithMethod) Methods() string {
-	return "method value"
+	return "method value\n"
 }
 
 // To help write more readable templates We can add - at the beginning or end of action as seen in {{end -}}.

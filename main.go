@@ -5,6 +5,7 @@ import (
 	"github.com/law-lee/go-essentials/channels"
 	"github.com/law-lee/go-essentials/commands"
 	"github.com/law-lee/go-essentials/concurrency"
+	"github.com/law-lee/go-essentials/contextdemo"
 	"github.com/law-lee/go-essentials/csvdemo"
 	"github.com/law-lee/go-essentials/datetime"
 	deferdemo "github.com/law-lee/go-essentials/defer-demo"
@@ -41,4 +42,5 @@ func main() {
 	csvdemo.Run()
 	reflection.Run()
 	templatedemo.Run()
+	contextdemo.Run()
 }
