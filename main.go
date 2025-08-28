@@ -17,6 +17,7 @@ import (
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
 	"github.com/law-lee/go-essentials/reflection"
+	"github.com/law-lee/go-essentials/signals"
 	templatedemo "github.com/law-lee/go-essentials/templates"
 	"github.com/law-lee/go-essentials/xmldemo"
 )
@@ -43,4 +44,5 @@ func main() {
 	reflection.Run()
 	templatedemo.Run()
 	contextdemo.Run()
+	signals.Run()
 }
