@@ -5,6 +5,7 @@ import (
 	"github.com/law-lee/go-essentials/channels"
 	"github.com/law-lee/go-essentials/commands"
 	"github.com/law-lee/go-essentials/concurrency"
+	"github.com/law-lee/go-essentials/contextdemo"
 	"github.com/law-lee/go-essentials/csvdemo"
 	"github.com/law-lee/go-essentials/datetime"
 	deferdemo "github.com/law-lee/go-essentials/defer-demo"
@@ -15,8 +16,10 @@ import (
 	"github.com/law-lee/go-essentials/methods"
 	mutexdemo "github.com/law-lee/go-essentials/mutex-demo"
 	par "github.com/law-lee/go-essentials/panicAndRecover"
-	"github.com/law-lee/go-essentials/xmldemo"
 	"github.com/law-lee/go-essentials/reflection"
+	"github.com/law-lee/go-essentials/signals"
+	templatedemo "github.com/law-lee/go-essentials/templates"
+	"github.com/law-lee/go-essentials/xmldemo"
 )
 
 func main() {
@@ -39,4 +42,7 @@ func main() {
 	xmldemo.Run3()
 	csvdemo.Run()
 	reflection.Run()
+	templatedemo.Run()
+	contextdemo.Run()
+	signals.Run()
 }
